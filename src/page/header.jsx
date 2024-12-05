@@ -8,7 +8,7 @@ function Header() {
         <HeaderItem to="main-section">main</HeaderItem>
         <HeaderItem to="about-section">about me</HeaderItem>
         <HeaderItem to="project-section">project</HeaderItem>
-        <HeaderItem to="about-section">contact</HeaderItem>
+        <HeaderItem to="contact-section">contact</HeaderItem>
     </div>
   );
 }

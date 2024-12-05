@@ -1,0 +1,32 @@
+/* 공통 애니메이션 설정 */
+.github-container, .tistory-container {
+    position: relative;
+    transition: all 1s ease-in-out;
+  }
+  
+  .github-img, .tistory-img {
+    transition: transform 1s ease-in-out;
+  }
+  
+  .github-text, .tistory-text {
+    transition: transform 1s ease-in-out;
+  }
+  
+  /* hover 시 애니메이션 효과 */
+  .github-container:hover .github-img {
+    transform: translateX(100px); /* GitHub 이미지 오른쪽으로 이동 */
+  }
+  
+  .github-container:hover .github-text {
+    transform: translateX(-70px); /* 'github' 텍스트 왼쪽으로 이동 */
+  }
+  
+  /* Tistory hover 시 애니메이션 효과 */
+  .tistory-container:hover .tistory-img {
+    transform: translateX(100px); /* Tistory 이미지 오른쪽으로 이동 */
+  }
+  
+  .tistory-container:hover .tistory-text {
+    transform: translateX(-70px); /* 'tistory' 텍스트 왼쪽으로 이동 */
+  }
+  
